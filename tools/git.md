@@ -27,4 +27,29 @@ $ git remote rm <host-name> # 删除远程主机
 $ git remote rename <host-name> <new-name> # 重命名
 ```
 
+## git fetch
 
+```shell
+$ git fetch <host-name> # 将主机的更新取回本地
+$ git fetch <host-name> <branch-name> # 仅取回指定分支
+$ git branch -r # 远程分支
+$ git branch -a # 所有分支
+$ git checkout -b newBranch oriigin/master # 在远程分支基础上建立新的分支
+$ git merge origin/master # 在当前分支上合并origin/master
+```
+
+## git pull
+
+```shell
+$ git pull <host-name> <host-branch>:<local-branch> # 取回远程分支合并到本地
+```
+
+## git push
+
+```shell
+$ git push <host-name> <local-branch>:<host-branch>
+$ git push <host-name> <local-branch> # 到同名远程分支
+$ git push <host-namee> :<host-branch> # 删除远程分支
+```
+
+> 还有一些进阶内容待读
