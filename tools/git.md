@@ -53,3 +53,13 @@ $ git push <host-namee> :<host-branch> # 删除远程分支
 ```
 
 > 还有一些进阶内容待读
+
+
+
+![](https://images2015.cnblogs.com/blog/987101/201703/987101-20170307170555016-1139738856.png)
+
+## 参考
+
+- [Git远程操作详解 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2014/06/git_remote.html)
+
+- [将本地文件夹push到github仓库 - 风茗 - 博客园](https://www.cnblogs.com/njqa/p/6515713.html)
