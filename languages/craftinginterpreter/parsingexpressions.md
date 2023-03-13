@@ -18,6 +18,8 @@ term           → factor ( ( "-" | "+" ) factor )* ;
 factor         → unary ( ( "/" | "*" ) unary )* ;
 unary          → ( "!" | "-" ) unary
                | primary ;
+call           → primary ( "(" arguments? ")" )* ;
+arguments      → expression ( "," expression )* ;
 primary        → NUMBER | STRING | "true" | "false" | "nil"
                | "(" expression ")" ;
 ```
@@ -46,7 +48,5 @@ and some thing also need for real parser:
 - **Report as many distinct errors as there are.**
 
 - **Minimize *cascaded* errors.**
-
-
 
 **error recovery** : responds to an error and keeps going to look for later errors.

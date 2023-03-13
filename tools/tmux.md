@@ -73,5 +73,3 @@ $ tmux rename-session -t 0 <new-name>
 > - `Ctrl+b <number>`：切换到指定编号的窗口，其中的`<number>`是状态栏上的窗口编号。
 > - `Ctrl+b w`：从列表中选择窗口。
 > - `Ctrl+b ,`：窗口重命名。
-
-

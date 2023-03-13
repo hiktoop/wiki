@@ -54,8 +54,6 @@ $ git push <host-namee> :<host-branch> # 删除远程分支
 
 > 还有一些进阶内容待读
 
-
-
 ![](https://images2015.cnblogs.com/blog/987101/201703/987101-20170307170555016-1139738856.png)
 
 ## 参考
